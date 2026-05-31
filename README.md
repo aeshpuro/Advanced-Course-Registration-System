@@ -1,57 +1,31 @@
-This project is a Java-based Student Course Registration System that allows students to view courses, register for classes, drop classes, and view their schedules. The program was created to practice object-oriented programming concepts and improve my understanding of Java.
-
-The system uses multiple classes to organize information about students and courses. It also includes basic user login functionality and GPA calculation features.
+# Advanced Student Course Registration System
 
 Features
-Student login
-View available courses
-Register for courses
-Drop courses
-View current schedule
-Calculate GPA
-Store student and course information
-What I Learned
+- User account creation and login
+- Student and Admin roles
+- Course registration and dropping
+- Credit-hour limits
+- GPA tracking
+- File storage
+- Object-Oriented Programming
+- Java Collections
+- Input validation
 
-While developing this project, I gained experience with:
+Suggested UML:
 
-Java programming
-Object-oriented programming
-Classes and objects
-Inheritance
-Encapsulation
-File processing
-ArrayLists
-Debugging and testing
-Problem-solving
-Program Structure
-Main.java
-User.java
-Student.java
-Admin.java
-Course.java
-AuthenticationManager.java
-RegistrationManager.java
-GPACalculator.java
-FileManager.java
-How to Run
-Download all project files.
-Open the project in IntelliJ IDEA or Eclipse.
-Compile the Java files.
-Run Main.java.
-Follow the menu options displayed in the console.
-Future Improvements
+User
+ |- Student
+ |- Admin
 
-If I continue working on this project, I would like to:
+Course
+FileManager
+AuthenticationManager
+RegistrationManager
+GPACalculator
+Main
 
-Add a graphical user interface
-Connect the program to a database
-Improve security for user accounts
-Add course waitlists
-Allow multiple students to use the system at the same time
-Author
-
-Aesha Purohit
-
-Computer Science Student
-
-The University of Texas at Dallas
+Resume Bullets:
+• Developed a Java-based course registration system featuring authentication, role-based access, and academic record management.
+• Implemented object-oriented design using multiple classes, encapsulation, inheritance, and file processing.
+• Designed course enrollment and GPA tracking functionality while enforcing registration constraints.
+• Applied debugging, testing, and input validation techniques to improve software reliability and user experience.

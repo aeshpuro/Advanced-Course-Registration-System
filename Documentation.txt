@@ -1,0 +1,12 @@
+
+Project Documentation
+
+Modules:
+1. Authentication
+2. Course Registration
+3. GPA Management
+4. File Storage
+5. Administrative Controls
+
+Technologies:
+Java, OOP, ArrayLists, File I/O, Exception Handling
